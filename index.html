@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Admission Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>Student Admission Form</h2>
+
+    <form id="admissionForm">
+        <label>Full Name</label>
+        <input type="text" id="name">
+
+        <label>Email</label>
+        <input type="email" id="email">
+
+        <label>Phone Number</label>
+        <input type="text" id="phone">
+
+        <label>Date of Birth</label>
+        <input type="date" id="dob">
+
+        <label>Course</label>
+        <select id="course">
+            <option value="">Select Course</option>
+            <option>B.Tech</option>
+            <option>B.Sc</option>
+            <option>BCA</option>
+            <option>MCA</option>
+        </select>
+
+        <button type="submit">Submit</button>
+        <p id="error"></p>
+    </form>
+
+    <div id="success"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
